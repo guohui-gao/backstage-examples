@@ -1,21 +1,6 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: backstageexample
-  description: |
-    description of the repo
-spec:
-  type: service
-  owner: user:guest
-  lifecycle: experimental
-
-apiVersion: backstage.io/v1alpha1
-kind: Location
-metadata:
-  name: location
-  description: |
-    location
-spec:
-  targets:: 
-    - org.yaml
-    - entities.yaml
+catalog:
+  locations:
+    - type: url
+      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/components/artist-lookup-component.yaml
+    - type: file
+      target: org.yaml
