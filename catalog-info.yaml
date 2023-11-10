@@ -1,8 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: |
-    Example Repo Catalog Info
+  name: Example Repo Catalog Info
 spec:
   type: file
   targets:
