@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.name | dump }}
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
+catalog:
+  locations:
+    - type: url
+      target: https://github.com/guohui-gao/backstage-examples/blob/main/org.yaml
+    - type: url
+      target: https://github.com/guohui-gao/backstage-examples/blob/main/entities.yaml
