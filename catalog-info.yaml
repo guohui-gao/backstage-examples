@@ -7,3 +7,5 @@ spec:
   targets:
     - org.yaml
     - entities.yaml
+    - template/template.yaml
+    - template/spring-boot-template.yaml
