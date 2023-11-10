@@ -1,4 +1,9 @@
-catalog:
-  locations:
-    - type: url
-      target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/components/artist-lookup-component.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: c
+spec:
+  type: file
+  targets:
+    - org.yaml
+    - entities.yaml
