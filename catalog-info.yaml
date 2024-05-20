@@ -5,7 +5,7 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/guohui-gao/backstage-examples/blob/main/org.yaml
+    - https://github.com/guohui-gao/backstage-examples/blob/main/entities.yaml
     #- https://github.com/guohui-gao/backstage-examples/blob/main/org.yaml
     #- https://github.com/guohui-gao/backstage-examples/blob/main/entities.yaml
     #- https://github.com/guohui-gao/backstage-examples/blob/main/template/template.yaml
