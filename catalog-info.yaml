@@ -8,5 +8,5 @@ spec:
     - https://github.com/guohui-gao/backstage-examples/blob/main/entities.yaml
     - https://github.com/guohui-gao/backstage-examples/blob/main/org.yaml
     #- https://github.com/guohui-gao/backstage-examples/blob/main/entities.yaml
-    #- https://github.com/guohui-gao/backstage-examples/blob/main/template/template.yaml
+    - https://github.com/guohui-gao/backstage-examples/blob/main/template/template.yaml
     #- https://github.com/guohui-gao/backstage-examples/blob/main/template/spring-boot-template.yaml
