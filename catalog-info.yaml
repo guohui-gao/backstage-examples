@@ -3,7 +3,7 @@ kind: Location
 metadata:
   name: Example-Repo-Catalog-Info
 spec:
-  type: file
+  type: url
   targets:
     - https://github.com/guohui-gao/backstage-examples/blob/main/org.yaml
     - https://github.com/guohui-gao/backstage-examples/blob/main/entities.yaml
